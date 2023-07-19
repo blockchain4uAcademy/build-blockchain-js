@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/blockchain4uAcademy/build-blockchain-js/issues"
   },
-  "homepage": "https://github.com/blockchain4uAcademy/build-blockchain-js#readme",
-  "dependencies": {
-    "sha256": "^0.2.0"
-  }
+  "homepage": "https://github.com/blockchain4uAcademy/build-blockchain-js#readme"
 }

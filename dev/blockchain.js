@@ -1,5 +1,5 @@
 const sha256 = require('sha256'); 
-const currentNodeUrl = process.argv[2];
+const currentNodeUrl = "http://localhost:"+process.argv[2];
 function Blockchain() {
   this.chain= [];
   this.pendingTransactions =[];

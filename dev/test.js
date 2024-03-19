@@ -1,6 +1,20 @@
-const Blockchain = require('./blockchain');
+ const Blockchain = require('./blockchain');
 
 const bitcoin =new Blockchain();
+
+
+bitcoin.createNewBlock(5,"previousHash","hash")
+
+
+
+
+
+
+console.log(bitcoin);
+
+
+
+
 //------------------01 Testing create block
 /* bitcoin.createNewBlock(2113,'FKG65456GDDG','FQFJK56867'); */
 
@@ -71,4 +85,4 @@ console.log(proofedNonce);
 const hash =bitcoin.hashBlock(previousBlockHash,currentBlockData,proofedNonce)
 console.log(hash); */
 
-console.log(bitcoin);
+//console.log(bitcoin);
